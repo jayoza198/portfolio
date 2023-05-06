@@ -24,6 +24,8 @@ SOCIAL_MEDIA = {
     "GitHub": "https://github.com/jayoza198",
     "Twitter": "https://twitter.com/jayozaa",
     "Kaggle": "https://www.kaggle.com/jayoza198",
+    "Blog": "https://jayoza.hashnode.dev/",
+    
 }
 PROJECTS = {
     "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
