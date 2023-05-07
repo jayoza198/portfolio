@@ -27,12 +27,12 @@ SOCIAL_MEDIA = {
     "Blog": "https://jayoza.hashnode.dev/",
     
 }
-PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
-}
+# PROJECTS = {
+#     "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
+#     "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
+#     "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
+#     "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+# }
 
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -92,7 +92,7 @@ st.write(
 - 📚 Modeling: Logistic regression, linear regression, Decision Tree, Ensemble Learning
 - 🗄️ Databases: Postgres, MySQL, SQlite
 - 💾 Frameworks : Flask, Django
-- ☁️ Deployment : Streamlit
+- ☁️ Deployment : Streamlit, Hugging Face, MLFlow
 """
 )
 
@@ -197,6 +197,17 @@ st.write(
 )
 
 # --- Project 3
+st.write("🖥️", "**NFT Tweets Sentimental Analysis**")
+st.write(
+    """
+- ► Developed a powerful Twitter scraper utilizing the Twitter API to extract real-time data based on keywords, hashtags, user handles, or geolocations. Ensured data integrity and scalability for collecting comprehensive tweets to build an up-to-date dataset.
+- ► Employed sentiment analysis techniques using NLP and machine learning algorithms to determine the sentiment (positive, negative, or neutral) of NFT-related tweets. Generated valuable insights on public opinion, sentiment trends, and customer feedback.
+- ► Implemented visualization and reporting features, presenting sentiment analysis results through intuitive visualizations like bar charts, word clouds, and sentiment distribution plots.Empowered data-driven decision-making and provided market insights.
+"""
+)
+
+
+# --- Project 4
 st.write("🖥️", "**Customer Analysis Dashboard - Tableau**")
 st.write(
     """
@@ -206,12 +217,55 @@ st.write(
 """
 )
 
-# --- Project 4
+# --- Project 5
 st.write("🖥️", "**Dhani.ai**")
 st.write(
     """
 - ► Dhani.ai is a cutting-edge finance content generation website that harnesses the power of OpenAI to provide users with personalized investment advice and market insights.  
 - ► The website is built using the Python programming language, Flask web framework, and is hosted on Streamlit, a powerful platform for building and deploying machine learning applications.
 - ► The app is deployed on Streamlit having seamless user experience powered by Cohere's api.
+"""
+)
+
+# Certifications
+st.write('\n')
+st.subheader("Certification")
+st.write("---")
+
+# ---- Certification 1------
+st.write("👨🏻‍🎓", "**Machine Learning Specialization - Standford University, Coursera**")
+st.write(
+    """
+- ► Developed strong foundations in fundamental machine learning algorithms, including linear regression, logistic regression, neural networks, and support vector machines. Proficient in implementing appropriate algorithms for diverse machine learning tasks.
+- ► Experienced in data preprocessing, feature engineering, and utilizing popular machine learning tools and libraries such as Python, NumPy, pandas, and scikit-learn. Skilled in model evaluation, performance metrics, and making informed decisions for effective implementation.
+"""
+)
+
+# ---- Certification 2------
+
+st.write("👨🏻‍🎓", "**Open Source MLOps Platforms, Duke University-Coursera**")
+st.write(
+    """
+- ► Acquired a comprehensive understanding of open-source platforms such as Hugging Face, MLflow, and Azure Cloud, gaining expertise in their implementation for effective MLOps (Machine Learning Operations) practices.
+- ► Developed practical skills in utilizing these platforms for model deployment, version control, model tracking, and performance monitoring, enabling streamlined and efficient management of machine learning projects.
+"""
+)
+
+# ---- Certification 3------
+
+st.write("👨🏻‍🎓", "**Game Theory, Stanford University-Coursera**")
+st.write(
+    """
+- ► Gained a comprehensive understanding of game theory principles and their applications in various fields, including economics, politics, and social sciences. Explored concepts such as strategic interactions, Nash equilibrium, bargaining, and mechanism design.
+- ► Developed skills in analyzing complex decision-making scenarios, identifying optimal strategies, and predicting outcomes in competitive situations. Proficient in applying game theory frameworks to real-world scenarios for strategic decision-making and negotiation.
+"""
+)
+
+# ---- Certification 4------
+st.write("👨🏻‍🎓", "**AI Product Management Specialization - Duke University, Coursera**")
+st.write(
+    """
+- ► Acquired a comprehensive understanding of the principles and practices of AI product management, including the ethical considerations, data strategies, and deployment techniques specific to AI-driven products.
+- ► Developed skills in identifying market opportunities, defining product requirements, and leading cross-functional teams to successfully develop and launch AI-powered products, while ensuring alignment with business objectives and user needs.
 """
 )
