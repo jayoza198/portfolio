@@ -243,7 +243,7 @@ st.write(
 
 # ---- Certification 2------
 
-st.write("👨🏻‍🎓", "**Open Source MLOps Platforms, Duke University-Coursera**")
+st.write("👨🏻‍🎓", "**Open Source MLOps Platforms - Duke University, Coursera**")
 st.write(
     """
 - ► Acquired a comprehensive understanding of open-source platforms such as Hugging Face, MLflow, and Azure Cloud, gaining expertise in their implementation for effective MLOps (Machine Learning Operations) practices.
@@ -253,7 +253,7 @@ st.write(
 
 # ---- Certification 3------
 
-st.write("👨🏻‍🎓", "**Game Theory, Stanford University-Coursera**")
+st.write("👨🏻‍🎓", "**Game Theory - Stanford University, Coursera**")
 st.write(
     """
 - ► Gained a comprehensive understanding of game theory principles and their applications in various fields, including economics, politics, and social sciences. Explored concepts such as strategic interactions, Nash equilibrium, bargaining, and mechanism design.
