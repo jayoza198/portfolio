@@ -236,7 +236,7 @@ st.write("---")
 st.write("👨🏻‍🎓", "**Machine Learning Specialization - Standford University, Coursera**")
 st.write(
     """
-- ► Developed strong foundations in fundamental machine learning algorithms, including linear regression, logistic regression, neural networks, and support vector machines. Proficient in implementing appropriate algorithms for diverse machine learning tasks.
+- ► Developed a strong foundation in fundamental machine learning algorithms, including linear regression, logistic regression, neural networks, and support vector machines. Proficient in implementing appropriate algorithms for diverse machine learning tasks.
 - ► Experienced in data preprocessing, feature engineering, and utilizing popular machine learning tools and libraries such as Python, NumPy, pandas, and scikit-learn. Skilled in model evaluation, performance metrics, and making informed decisions for effective implementation.
 """
 )
