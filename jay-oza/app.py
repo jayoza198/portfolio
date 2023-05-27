@@ -110,13 +110,14 @@ def radar_chart():
         theta=['Data Analysis', 'Machine Learning', 'Database Engineering',
                'Natural Language Processing', 'Computer Vision', 'Big Data Analysis']
     ))
-    trace_data = pd.concat([df, df.iloc[[0]]])
+    trace_data = pd.concat([df, df.iloc[[0]]]).reset_index(drop=True)
     fig = px.line_polar(trace_data, r='r', theta='theta', line_close=True)
-    fig.update_traces(fill='area')  
+    fig.update_traces(fill='toself')
     st.write(fig)
 
 if __name__ == '__main__':
     radar_chart()
+
 
 
 
