@@ -2,7 +2,9 @@ from pathlib import Path
 
 import streamlit as st
 from PIL import Image
-
+import random
+import plotly.express as px
+import pandas as pd
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -95,6 +97,25 @@ st.write(
 - ☁️ Deployment : Streamlit, Hugging Face, MLFlow
 """
 )
+
+# --- RADAR MAP ---
+st.write('\n')
+st.subheader("Skill Map")
+st.write('---')
+
+def radar_chart():
+    df = pd.DataFrame(dict(
+    r=[5, 3, 2, 2, 1, 3],
+    theta=['Data Analysis','Machine Learning','Database Engineering',
+        'Natural Langauge Processing', 'Computer Vision', 'Big Data Analysis']))
+    fig = px.line_polar(df, r='r', theta='theta', line_close=True)
+    fig.update_traces(fill='toself')
+    st.write(fig)
+    
+
+if __name__ == '__main__':
+    radar_chart()
+
 
 
 # --- WORK HISTORY ---
