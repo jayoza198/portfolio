@@ -6,6 +6,7 @@ import random
 import plotly.express as px
 import pandas as pd
 
+
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
@@ -115,7 +116,6 @@ def radar_chart():
 
 if __name__ == '__main__':
     radar_chart()
-
 
 
 # --- WORK HISTORY ---
