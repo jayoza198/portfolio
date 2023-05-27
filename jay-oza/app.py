@@ -111,7 +111,7 @@ def radar_chart():
                'Natural Language Processing', 'Computer Vision', 'Big Data Analysis']
     ))
     trace_data = pd.concat([df, df.iloc[[0]]], ignore_index=True)
-    fig = px.line_polar(trace_data, r='r', theta='theta', line_close=True)
+    fig = px.line_polar(data_frame= trace_data, r='r', theta='theta', line_close=True)
     fig.update_traces(fill='toself')
     st.write(fig)
 
