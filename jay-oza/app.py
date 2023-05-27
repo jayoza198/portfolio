@@ -112,7 +112,7 @@ def radar_chart():
     
     trace_data = pd.concat([df, df.iloc[[0]]])  
     fig = px.line_polar(trace_data, r='r', theta='theta', line_close=True)
-    fig.update_traces(fill='toself')
+    fig.update_traces(fill='area')
     st.write(fig)
 
     
