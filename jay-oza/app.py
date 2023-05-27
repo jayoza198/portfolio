@@ -113,7 +113,6 @@ def radar_chart():
     fig.update_traces(fill='toself')
     st.write(fig)
     
-
 if __name__ == '__main__':
     radar_chart()
 
