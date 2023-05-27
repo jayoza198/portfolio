@@ -106,12 +106,15 @@ st.write('---')
 
 def radar_chart():
     df = pd.DataFrame(dict(
-    r=[5, 3, 2, 2, 1, 3],
-    theta=['Data Analysis','Machine Learning','Database Engineering',
-        'Natural Langauge Processing', 'Computer Vision', 'Big Data Analysis']))
-    fig = px.line_polar(df, r='r', theta='theta', line_close=True)
+        r=[5, 3, 2, 2, 1, 3],
+        theta=['Data Analysis', 'Machine Learning', 'Database Engineering',
+               'Natural Language Processing', 'Computer Vision', 'Big Data Analysis']))
+    
+    trace_data = pd.concat([df, df.iloc[[0]]])  
+    fig = px.line_polar(trace_data, r='r', theta='theta', line_close=True)
     fig.update_traces(fill='toself')
     st.write(fig)
+
     
 if __name__ == '__main__':
     radar_chart()
