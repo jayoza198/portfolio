@@ -5,6 +5,7 @@ from PIL import Image
 import random
 import plotly.express as px
 import pandas as pd
+import plotly.graph_objects as go
 
 
 # --- PATH SETTINGS ---
@@ -105,22 +106,29 @@ st.subheader("Skill Map")
 st.write('---')
 
 def radar_chart():
-    df = pd.DataFrame(dict(
-        r=[5, 3, 2, 2, 1, 3],
-        theta=['Data Analysis', 'Machine Learning', 'Database Engineering',
-               'Natural Language Processing', 'Computer Vision', 'Big Data Analysis']
+    categories = ['Data Analysis', 'Machine Learning', 'Database Engineering',
+                'Natural Language Processing', 'Computer Vision', 'Big Data Analysis']
+    values = [5, 3, 2, 2, 1, 3]
+
+    fig = go.Figure(data=go.Scatterpolar(
+        r=values,
+        theta=categories,
+        fill='toself'
     ))
-    trace_data = pd.concat([df, pd.DataFrame([df.iloc[0]])])
-    fig = px.line_polar(data_frame= trace_data, r='r', theta='theta', line_close=True)
-    fig.update_traces(fill='toself')
-    st.write(fig)
+
+    fig.update_layout(
+        polar=dict(
+            radialaxis=dict(visible=True),
+        ),
+        showlegend=False
+    )
+
+    st.plotly_chart(fig)
 
 if __name__ == '__main__':
     radar_chart()
 
-
-
-
+    
 # --- WORK HISTORY ---
 st.write('\n')
 st.subheader("Work History")
