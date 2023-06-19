@@ -135,8 +135,34 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
+st.write("👨🏻‍💻", "**Data Science Intern | Nutriva Lifescience Ltd**")
+st.write("06/2023 - Present")
+st.write(
+    """
+- ► Developed and deployed an end-to-end healthcare data analysis web-app using Streamlit and Python, handling over 1 GB of data. Leveraged data science techniques to extract valuable insights and trends from large datasets. Implemented interactive visualizations which ensured data accuracy and reliability. Received positive feedback from team leaders and the CEO.
+- ► Led the architecture and development of a centralized healthcare product database for Nutriva Lifesciences Pvt Ltd. Designed a scalable schema for efficient querying and data management of healthcare products.
+- ► Streamlined inventory management through data linking with merchants. Utilized advanced data modelling techniques to ensure data integrity and optimize database performance. Integrated the database seamlessly with existing systems
+"""
+)
+
+
+# --- JOB 2
+st.write("👨🏻‍💻", "**Machine Learning Intern | Omdena**")
+st.write("06/2023 - Present")
+st.write(
+    """
+- ► Developed and executed a finance project with the help of Benin’s banking dataset, achieving a significant increase in credit
+score analysis accuracy from 56% to 83% through the application of machine learning. Collaborated with Omdena, utilizing
+ensemble learning algorithms (XGBoost, Random Forest) and SVM. 
+- ► Ensured fairness, incorporated domain knowledge, and optimized the data pipeline for enhanced efficiency.
+- ► Spearheaded critical finance project, achieving remarkable 83% accuracy (48% increase) in credit score analysis. Leveraged
+ensemble learning (XGBoost, Random Forest) and SVM. Ensured fairness, incorporated domain knowledge, optimized data pipeline, and conducted rigorous testing for reliable loan classification model.
+"""
+)
+
+# --- JOB 3
 st.write("👨🏻‍💻", "**NLP Engineering Intern | Omdena**")
-st.write("05/2023 - Present")
+st.write("05/2023 - 06/2023")
 st.write(
     """
 - ► As a Machine Learning Engineer at Omdena, I collaborated with a global team to develop an NLP-based machine learning model that accurately identified and categorized disaster-related tweets.
@@ -145,9 +171,9 @@ st.write(
 """
 )
 
-# --- JOB 2
+# --- JOB 4
 st.write("👨🏻‍💻", "**Business Developement & Management Intern | Max Conformance**")
-st.write("03/2023 - Present")
+st.write("03/2023 - 06/2023")
 st.write(
     """
 - ► Proactively engaged in business development efforts as a Management Intern at Max Coformance, effectively reaching out to CISOs of diverse companies via LinkedIn and other platforms to promote the company's product.
@@ -156,7 +182,7 @@ st.write(
 """
 )
 
-# --- JOB 3
+# --- JOB 5
 st.write('\n')
 st.write("👨🏻‍💻", "**Data Science Intern | Omdena**")
 st.write("04/2023 - 05/2023")
@@ -168,7 +194,7 @@ st.write(
 """
 )
 
-# --- JOB 4
+# --- JOB 6
 st.write('\n')
 st.write("👨🏻‍💻", "**Machine Learning Engineering Intern | Omdena**")
 st.write("03/2023 - 04/2023")
@@ -180,7 +206,7 @@ st.write(
 """
 )
 
-# --- JOB 5
+# --- JOB 7
 st.write('\n')
 st.write("👨🏻‍💻", "**App Development Intern | PHJ Technologies**")
 st.write("07/2022 - 08/2022")
@@ -192,7 +218,7 @@ st.write(
 """
 )
 
-# --- JOB 6
+# --- JOB 8
 st.write('\n')
 st.write("👨🏻‍💻", "**Data Analyst Intern | Devic Earth**")
 st.write("01/2022 - 02/2022")
