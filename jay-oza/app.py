@@ -151,12 +151,9 @@ st.write("👨🏻‍💻", "**Machine Learning Intern | Omdena**")
 st.write("06/2023 - Present")
 st.write(
     """
-- ► Developed and executed a finance project with the help of Benin’s banking dataset, achieving a significant increase in credit
-score analysis accuracy from 56% to 83% through the application of machine learning. Collaborated with Omdena, utilizing
-ensemble learning algorithms (XGBoost, Random Forest) and SVM. 
+- ► Developed and executed a finance project with the help of Benin’s banking dataset, achieving a significant increase in credit score analysis accuracy from 56% to 83% through the application of machine learning. Collaborated with Omdena, utilizing ensemble learning algorithms (XGBoost, Random Forest) and SVM. 
 - ► Ensured fairness, incorporated domain knowledge, and optimized the data pipeline for enhanced efficiency.
-- ► Spearheaded critical finance project, achieving remarkable 83% accuracy (48% increase) in credit score analysis. Leveraged
-ensemble learning (XGBoost, Random Forest) and SVM. Ensured fairness, incorporated domain knowledge, optimized data pipeline, and conducted rigorous testing for reliable loan classification model.
+- ► Spearheaded critical finance project, achieving remarkable 83% accuracy (48% increase) in credit score analysis. Leveraged ensemble learning (XGBoost, Random Forest) and SVM. Ensured fairness, incorporated domain knowledge, optimized data pipeline, and conducted rigorous testing for reliable loan classification model.
 """
 )
 
