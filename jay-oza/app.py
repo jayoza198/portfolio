@@ -134,9 +134,30 @@ st.write('\n')
 st.subheader("Work History")
 st.write("---")
 
-# --- JOB 1
+# --- JOB 
+st.write("📈", "**Quant Research Consultant | WorldQuant Brain**")
+st.write("10/2023 - Present")
+st.write(
+    """
+- ► Conducted dynamic market analysis and formulated strategic equations, contributing to enhanced market efficiency as a Quant Research Consultant at WorldQuant Brain.
+- ► Specialized in crafting visionary mathematical models, significantly improving precision and introducing innovative approaches to market strategies.
+- ► Demonstrated a proven track record in rigorous backtesting, ensuring adaptability and long-term success of strategies in various market scenarios as a Quant Research Consultant.
+"""
+)
+
+# --- JOB 
+st.write("👨🏻‍💻", "**Data Science Intern | YOLOH INC.**")
+st.write("08/2023 - Present")
+st.write(
+    """
+- ► Innovating a technological fusion that leverages OCR, harnessing the capabilities of Llama 2, GPT-3.5, and GPT-4 models.
+- ► Synergizing the potential of Neo4j graph database with the scalability of AWS resources, achieving a 30% reduction in manual data entry and optimizing data retrieval efficiency by an outstanding 53%.
+"""
+)
+
+# --- JOB 
 st.write("👨🏻‍💻", "**Data Science Intern | Nutriva Lifescience Ltd**")
-st.write("06/2023 - Present")
+st.write("06/2023 - 06/2023")
 st.write(
     """
 - ► Developed and deployed an end-to-end healthcare data analysis web-app using Streamlit and Python, handling over 1 GB of data. Leveraged data science techniques to extract valuable insights and trends from large datasets. Implemented interactive visualizations which ensured data accuracy and reliability. Received positive feedback from team leaders and the CEO.
@@ -146,9 +167,9 @@ st.write(
 )
 
 
-# --- JOB 2
+# --- JOB 
 st.write("👨🏻‍💻", "**Machine Learning Intern | Omdena**")
-st.write("06/2023 - Present")
+st.write("06/2023 - 07/2023")
 st.write(
     """
 - ► Developed and executed a finance project with the help of Benin’s banking dataset, achieving a significant increase in credit score analysis accuracy from 56% to 83% through the application of machine learning. Collaborated with Omdena, utilizing ensemble learning algorithms (XGBoost, Random Forest) and SVM. 
@@ -157,7 +178,7 @@ st.write(
 """
 )
 
-# --- JOB 3
+# --- JOB 
 st.write("👨🏻‍💻", "**NLP Engineering Intern | Omdena**")
 st.write("05/2023 - 06/2023")
 st.write(
@@ -168,7 +189,7 @@ st.write(
 """
 )
 
-# --- JOB 4
+# --- JOB 
 st.write("👨🏻‍💻", "**Business Developement & Management Intern | Max Conformance**")
 st.write("03/2023 - 06/2023")
 st.write(
@@ -179,7 +200,7 @@ st.write(
 """
 )
 
-# --- JOB 5
+# --- JOB 
 st.write('\n')
 st.write("👨🏻‍💻", "**Data Science Intern | Omdena**")
 st.write("04/2023 - 05/2023")
@@ -191,7 +212,7 @@ st.write(
 """
 )
 
-# --- JOB 6
+# --- JOB 
 st.write('\n')
 st.write("👨🏻‍💻", "**Machine Learning Engineering Intern | Omdena**")
 st.write("03/2023 - 04/2023")
@@ -203,7 +224,7 @@ st.write(
 """
 )
 
-# --- JOB 7
+# --- JOB 
 st.write('\n')
 st.write("👨🏻‍💻", "**App Development Intern | PHJ Technologies**")
 st.write("07/2022 - 08/2022")
@@ -215,7 +236,7 @@ st.write(
 """
 )
 
-# --- JOB 8
+# --- JOB 
 st.write('\n')
 st.write("👨🏻‍💻", "**Data Analyst Intern | Devic Earth**")
 st.write("01/2022 - 02/2022")
