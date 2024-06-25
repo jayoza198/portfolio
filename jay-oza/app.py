@@ -80,7 +80,7 @@ st.subheader("Qualifications")
 st.write(
     """
 - ✅ B.Tech in Computer Engineering - K.J. Somaiya Institute of Technology, Mumbai
-- ✅ B.Sc in Data Science and Programming - Indian Institute of Technology, Madras
+- ✅ B.S in Data Science and Applications - Indian Institute of Technology, Madras
 - ✅ Honors in Artificial Intelligence and Machine Learning - K.J. Somaiya Institute of Technology, Mumbai
 """
 )
