@@ -107,8 +107,8 @@ st.write('---')
 
 def radar_chart():
     categories = ['Data Analysis', 'Machine Learning', 'Database Engineering',
-                'Natural Language Processing', 'Computer Vision', 'Big Data Analysis']
-    values = [5, 3, 2, 2, 1, 3]
+                'Natural Language Processing', 'Computer Vision', 'Big Data Analysis', 'AWS']
+    values = [5, 4, 4, 3, 3, 3, 3]
 
     fig = go.Figure(data=go.Scatterpolar(
         r=values,
@@ -135,8 +135,27 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 
+st.write("👨🏻‍💻", "**Risk Analyst | Deloitte.**")
+st.write("07/2024 - Present")
+st.write(
+    """
+"""
+)
+
+
+# --- JOB 
+st.write("👨🏻‍💻", "**Data Science Intern | YOLOH INC.**")
+st.write("08/2023 - 07/2024")
+st.write(
+    """
+- ► Innovating a technological fusion that leverages OCR, harnessing the capabilities of Llama 2, GPT-3.5, and GPT-4 models.
+- ► Synergizing the potential of Neo4j graph database with the scalability of AWS resources, achieving a 30% reduction in manual data entry and optimizing data retrieval efficiency by an outstanding 53%.
+"""
+)
+
+# --- JOB 
 st.write("📈", "**Quant Research Consultant | WorldQuant Brain**")
-st.write("10/2023 - Present")
+st.write("10/2023 - 05/2024")
 st.write(
     """
 - ► Conducted dynamic market analysis and formulated strategic equations, contributing to enhanced market efficiency as a Quant Research Consultant at WorldQuant Brain.
@@ -145,15 +164,6 @@ st.write(
 """
 )
 
-# --- JOB 
-st.write("👨🏻‍💻", "**Data Science Intern | YOLOH INC.**")
-st.write("08/2023 - Present")
-st.write(
-    """
-- ► Innovating a technological fusion that leverages OCR, harnessing the capabilities of Llama 2, GPT-3.5, and GPT-4 models.
-- ► Synergizing the potential of Neo4j graph database with the scalability of AWS resources, achieving a 30% reduction in manual data entry and optimizing data retrieval efficiency by an outstanding 53%.
-"""
-)
 
 # --- JOB 
 st.write("👨🏻‍💻", "**Data Science Intern | Nutriva Lifescience Ltd**")
