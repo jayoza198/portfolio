@@ -272,22 +272,43 @@ st.markdown(
 )
 
 # ---- Publication------
-st.write("📝", "**Metrics to Meaning: Enabling Human-Interpretable Language Model Assessment**")
+st.markdown(
+    "📝 [**Metrics to Meaning: Enabling Human-Interpretable Language Model Assessment**](https://openreview.net/forum?id=DiAazbnedy&referrer=%5Bthe%20profile%20of%20Jay%20Oza%5D(%2Fprofile%3Fid%3D~Jay_Oza1))",
+    unsafe_allow_html=True,
+)
 
 # ---- Publication------
-st.write("📝", "**Harnessing Insights from Streams: Unlocking Real-Time Data Flow with Docker and Cassandra in the Apache Ecosystem**")
+st.markdown(
+    "📝 [**Harnessing Insights from Streams: Unlocking Real-Time Data Flow with Docker and Cassandra in the Apache Ecosystem**](https://www.researchgate.net/publication/377066874_Harnessing_Insights_from_Streams_Unlocking_Real-Time_Data_Flow_with_Docker_and_Cassandra_in_the_Apache_Ecosystem)",
+    unsafe_allow_html=True,
+)
 
 # ---- Publication------
-st.write("📝", "**MelSpectroNet: Enhancing Voice Authentication Security with AI-based Siamese Model and Noise Reduction for Seamless User Experience**")
+st.markdown(
+    "📝 [**MelSpectroNet: Enhancing Voice Authentication Security with AI-based Siamese Model and Noise Reduction for Seamless User Experience**](https://www.researchgate.net/publication/376540209_MelSpectroNet_Enhancing_Voice_Authentication_Security_with_AI-based_Siamese_Model_and_Noise_Reduction_for_Seamless_User_Experience)",
+    unsafe_allow_html=True,
+)
 
 # ---- Publication------
-st.write("📝", "**Enhancing Question Prediction with Flan T5 -A Context-Aware Language Model Approach**")
+st.markdown(
+    "📝 [**Enhancing Question Prediction with Flan T5 -A Context-Aware Language Model Approach**](https://www.authorea.com/users/706759/articles/693477-enhancing-question-prediction-with-flan-t5-a-context-aware-language-model-approach)",
+    unsafe_allow_html=True,
+)
 
 # ---- Publication------
-st.write("📝", "**A Streamlined Approach towards Monkeypox Detection**")
+st.markdown(
+    "📝 [**A Streamlined Approach towards Monkeypox Detection**](https://www.researchgate.net/publication/376201851_A_Streamlined_Approach_towards_Monkeypox_Detection)",
+    unsafe_allow_html=True,
+)
 
 # ---- Publication------
-st.write("📝", "**Toxic Comment Detection Using Bidirectional Sequence Classifiers**")
+st.markdown(
+    "📝 [**Toxic Comment Detection Using Bidirectional Sequence Classifiers**](https://ieeexplore.ieee.org/document/10467922)",
+    unsafe_allow_html=True,
+)
+
+# ---- Publication------
+st.write("📝", "****")
 
 
 # --- Projects  ---
