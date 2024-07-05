@@ -96,7 +96,7 @@ st.write(
 - 📚 Modeling: Logistic regression, linear regression, Decision Tree, Ensemble Learning
 - 🗄️ Databases: Postgres, MySQL, SQlite
 - 💾 Frameworks : Flask, Django
-- ☁️ Deployment : Streamlit, Hugging Face, MLFlow
+- ☁️ Deployment : AWS, GCP, Streamlit, Hugging Face, MLFlow
 """
 )
 
