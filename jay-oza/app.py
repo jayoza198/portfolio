@@ -266,7 +266,10 @@ st.write("---")
 st.write("📝", "**The DeepFake Dilemma: Balancing Innovation, Ethics, and Accountability Through Law**")
 
 # ---- Publication------
-st.write("📝", "**Pixels to Phrases: Evolution of Vision Language Models**")
+st.markdown(
+    "📝 [**Pixels to Phrases: Evolution of Vision Language Models**](https://www.researchgate.net/publication/381037796_Pixels_to_Phrases_Evolution_of_Vision_Language_Models)",
+    unsafe_allow_html=True,
+)
 
 # ---- Publication------
 st.write("📝", "**Metrics to Meaning: Enabling Human-Interpretable Language Model Assessment**")
