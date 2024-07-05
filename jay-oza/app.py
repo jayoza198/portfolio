@@ -257,12 +257,92 @@ st.write(
 """
 )
 
+# Publications
+st.write('\n')
+st.subheader("Publications")
+st.write("---")
+
+# ---- Publication------
+st.write("📝", "**The DeepFake Dilemma: Balancing Innovation, Ethics, and Accountability Through Law**")
+
+# ---- Publication------
+st.write("📝", "**Pixels to Phrases: Evolution of Vision Language Models**")
+
+# ---- Publication------
+st.write("📝", "**Metrics to Meaning: Enabling Human-Interpretable Language Model Assessment**")
+
+# ---- Publication------
+st.write("📝", "**Harnessing Insights from Streams: Unlocking Real-Time Data Flow with Docker and Cassandra in the Apache Ecosystem**")
+
+# ---- Publication------
+st.write("📝", "**MelSpectroNet: Enhancing Voice Authentication Security with AI-based Siamese Model and Noise Reduction for Seamless User Experience**")
+
+# ---- Publication------
+st.write("📝", "**Enhancing Question Prediction with Flan T5 -A Context-Aware Language Model Approach**")
+
+# ---- Publication------
+st.write("📝", "**A Streamlined Approach towards Monkeypox Detection**")
+
+# ---- Publication------
+st.write("📝", "**Toxic Comment Detection Using Bidirectional Sequence Classifiers**")
+
+
 # --- Projects  ---
 st.write('\n')
 st.subheader("Projects")
 st.write("---")
 
-# --- Project 1
+# --- Project 
+st.write("🖥️", "**Portfolio Optimization Using Markowitz Model**")
+st.write(
+    """
+- ► Executed Portfolio Optimization using the Markowitz Model for VOO (NYSE) and BLV (NYSE) initially within Google Sheets. 
+- ► Developed an Efficient Frontier and Mean-Standard Deviation Plot to gain a comprehensive insight into the stock movements.
+"""
+)
+
+# --- Project 
+st.write("🖥️", "**Real-Time Data Flow with Docker and Cassandra in the Apache Ecosystem**")
+st.write(
+    """
+- ► Engineered a real-time big data pipeline with Kafka, Spark, and Cassandra on Docker, achieving a 95% data ingestion success rate, sub-100ms latency, and a highly scalable, fault-tolerant architecture. 
+- ► Utilized Docker for rapid deployment and implemented a CI/CD pipeline for efficient feature rollouts.
+- ► Analyzed and optimized pipeline performance, processing 1000+ records/sec with 96% accuracy using custom API and Kaggle dataset streams. 
+- ► Ingested diverse data types, conducted rigorous testing for data integrity, and monitored key metrics to validate linear scalability under varying loads.
+"""
+)
+
+# --- Project 
+st.write("🖥️", "**Monkey Pox Detection Using Custom CNN Model**")
+st.write(
+    """
+- ► Developed of a project, "Monkeypox Detection through image detection," employing a custom Convolutional Neural Network (CNN) model boasting a formidable architecture of 14 layers.
+- ► This groundbreaking initiative was fortified with a robust dataset exceeding 6GB, meticulously curated for precision and diversity.
+"""
+)
+
+# --- Project 
+st.write("🖥️", "**CourseCompass: A Learning-Path Recommendation System**")
+st.write(
+    """
+- ► Led the development of "CourseCompass: A Learning-Path Recommendation System" at IIT Madras as part of the Software Engineering Course curriculum, targeting first and second-year students.
+- ► Orchestrated the design and implementation of the frontend using HTML, CSS, and Vue.js, while employing Python for the backend & Machine Learning and SQLite for the database
+- ►  Executed the project using the Agile methodology for efficient and iterative progress.
+"""
+)
+
+# --- Project 
+st.write("🖥️", "**Fine Tuning BERT for Text Classification**")
+st.write(
+    """
+- ► Fine-tuned BERT, a pre-trained language model, to classify text for detecting insincere questions. 
+- ► Built tf.data pipelines to feed data to the network and customized the model architecture by adding classifier layers.
+- ► Achieved over 96% validation accuracy after 100 epochs of training on Quora dataset with binary cross-entropy loss and Adam optimizer. 
+- ► The project enhanced my skills in leveraging transfer learning and fine-tuning large pre-trained NLP models for downstream tasks
+"""
+)
+
+# --- Project 
 st.write("🖥️", "**Butler.ai**")
 st.write(
     """
@@ -272,7 +352,7 @@ st.write(
 """
 )
 
-# --- Project 2
+# --- Project 
 st.write("🖥️", "**Movie Ticket Booking WebApp**")
 st.write(
     """
@@ -282,7 +362,7 @@ st.write(
 """
 )
 
-# --- Project 3
+# --- Project 
 st.write("🖥️", "**NFT Tweets Sentimental Analysis**")
 st.write(
     """
@@ -293,7 +373,7 @@ st.write(
 )
 
 
-# --- Project 4
+# --- Project 
 st.write("🖥️", "**Customer Analysis Dashboard - Tableau**")
 st.write(
     """
@@ -303,7 +383,7 @@ st.write(
 """
 )
 
-# --- Project 5
+# --- Project 
 st.write("🖥️", "**Dhani.ai**")
 st.write(
     """
